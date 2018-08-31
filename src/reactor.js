@@ -1,7 +1,12 @@
 
+const UniqueQueue = require('./unique-queue');
+
 function Reactor(mutator) {
   function *reactor(input) {
-    const queue = [input];
+    const queue = new UniqueQueue();
+
+    queue.push(input);
+
     while(queue.length > 0) {
       const seed = queue.pop();
 
