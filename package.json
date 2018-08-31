@@ -1,0 +1,22 @@
+{
+  "name": "pii-shooter",
+  "version": "1.0.0",
+  "description": "Discover PII hiding in encoded data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/briandamaged/js-pii-shooter.git"
+  },
+  "keywords": [
+    "pii"
+  ],
+  "author": "Brian Lauber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briandamaged/js-pii-shooter/issues"
+  },
+  "homepage": "https://github.com/briandamaged/js-pii-shooter#readme"
+}
